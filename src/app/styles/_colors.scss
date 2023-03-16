@@ -1,0 +1,97 @@
+$brand-color-primary: #0961ad;
+$brand-color-secondary: #1f6b2e;
+
+$app-text-primary: #424242;
+$app-text-secondary: #262b35;
+$app-text-tertiary: #686868;
+$app-text-white: #fff;
+$app-text-black: $app-text-primary;
+
+$app-shadow-container: -10px 9px 21px rgba(#8098d5, 0.16);
+$app-shadow-container-flipped: -10px -9px 21px rgba(#8098d5, 0.16);
+$app-shadow-element: 0 0 3px rgba(0, 0, 0, 0.16);
+$app-shadow-footer: 0px -9px 12px rgba(#8098d5, 0.16);
+
+$app-color-h1: $app-text-secondary;
+$app-color-h2: $app-text-primary;
+$app-color-border: $app-text-primary;
+$app-color-error: #c11313;
+
+$app-bg-body: #fafafa;
+$app-bg-container: #fafafa;
+$app-bg-header: #fff;
+$app-bg-side-drawer: $app-text-secondary;
+$app-bg-white: #fff;
+$app-active-row: #fffff9;
+$app-bg-color: #eef0f6;
+$app-border-color: #707070;
+$app-bg-footer: #f2f1f1;
+
+/* status  label colors */
+$label-completed-background: #facdb0;
+$label-completed-text: #c25b1b;
+$label-cancelled-background: #fce3eb;
+$label-cancelled-text: #c11313;
+$label-terminated-background: #fce3eb;
+$label-terminated-text: #c11313;
+$label-unassigned-background: #fce3eb;
+$label-unassigned-text: #c11313;
+$label-created-background: #facdb0;
+$label-created-text: #c25b1b;
+$label-assigned-background: #f5ebb6;
+$label-assigned-text: #bea523;
+$label-enroute-background: #abd0fc;
+$label-enroute-text: #03397a;
+$label-ongoing-background: #b0facd;
+$label-ongoing-text: #09ad48;
+$label-atLastDestination-background: #facdb0;
+$label-atLastDestination-text: #c25b1b;
+
+$app-bg-input-field: #e4e4e4;
+
+$app-login-color: #0961ad;
+$app-logout-color: #1f6b2e;
+$app-pickup-select: #dbfde2;
+$app-drop-select: #d8e9fd;
+$app-shift-pickup: #acd2fd;
+$app-shift-drop: #9be0a8;
+$app-selected-bg: #e6e6e6;
+$app-container-color: #f5f6f8;
+$app-bg-black: rgba(0, 0, 0, 0);
+$app-border-black: rgba(0, 0, 0, 0.42);
+$app-bg-action-btn: #d6e9fd;
+
+$pl-violet: #3c1237;
+$pl-gray: #97a2b0;
+$pl-gray-for-deleting: #80727F;
+$pl-blue: #1ce4f0;
+$pl-pink: #f91956;
+$pl-white: #ffffff;
+$pl-info-messages: #0d979f;
+$pl-divider-in-white: #dbdbdb;
+$pl-background: radial-gradient(86.63% 100% at 8.16% 100%, rgba(27, 152, 186, 0.6) 0%, rgba(55, 29, 59, 0) 100%), radial-gradient(77.15% 111.64% at 94.17% 0%, rgba(249, 25, 86, 0.6) 0%, rgba(55, 29, 59, 0) 100%), linear-gradient(167.96deg, #13173B 0%, #40143B 0.01%, #19163B 100%);
+
+$pl-bg-dark-violet-gradient: linear-gradient(
+    167.96deg,
+    #4d1948 0%,
+    #291326 100%
+  ),
+  linear-gradient(176.26deg, #4d1948 0%, #291326 48.11%);
+$pl-bg-glassy-white: rgba(255, 255, 255, 0.15);
+$pl-bg-glassy-big-panels: linear-gradient(
+  100.45deg,
+  rgba(255, 255, 255, 0.15) 3.19%,
+  rgba(255, 255, 255, 0.03) 100%
+);
+$pl-bg-small-elements: linear-gradient(180deg, #521d4d 0%, #33152f 100%);
+$pl-bg-violet-glass: rgba(60, 18, 55, 0.6);
+$pl-bg-specific-lines: rgba(255, 255, 255, 0.2);
+
+$pl-fonts-dark: #10080f;
+$pl-fonts-medium-dark: #5e585d;
+$pl-fonts-dark-pink: #b8284e;
+$pl-fonts-blue: #0d979f;
+$pl-fonts-pink-medium: #c3a2c5;
+$pl-fonts-light-text: #b7b5b7;
+$pl-fonts-light: #d9d1d8;
+$pl-fonts-red-alerts: #ff4a7b;

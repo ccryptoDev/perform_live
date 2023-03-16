@@ -1,0 +1,54 @@
+.ordered-list__row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.bottom-line {
+  border-bottom: 1px solid rgba(195, 162, 197, 0.3);
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.ordered-list__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ordered-list__content-title {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.ordered-list__image-container {
+  margin-right: 16px;
+  img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+
+    border: 1px solid #D9D1D8;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+}
+
+.ordered-list__content {
+  flex: 1;
+}
+
+.ordered-list__price {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-align: right;
+}

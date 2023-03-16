@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal Component renders correctly 1`] = `
+<div
+  className="modal"
+  onClick={[MockFunction]}
+  role="presentation"
+>
+  <div
+    className="modal-content app-container undefined"
+  >
+    <button
+      className="close"
+      onClick={[MockFunction]}
+      onKeyUp={[MockFunction]}
+      tabIndex={0}
+      type="button"
+    >
+      ×
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Modal Component renders correctly with outer-click disabled 1`] = `
+<div
+  className="modal"
+  onClick={[Function]}
+  role="presentation"
+>
+  <div
+    className="modal-content app-container undefined"
+  >
+    <button
+      className="close"
+      onClick={[MockFunction]}
+      onKeyUp={[MockFunction]}
+      tabIndex={0}
+      type="button"
+    >
+      ×
+    </button>
+  </div>
+</div>
+`;

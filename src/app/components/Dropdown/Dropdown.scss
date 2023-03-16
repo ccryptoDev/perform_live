@@ -1,0 +1,22 @@
+@import '~app/styles/_colors';
+
+.dropdown-container {
+  margin-bottom: 25px;
+
+  .input-title {
+    padding-left: 16px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: $pl-fonts-pink-medium;
+  }
+
+  .error-container {
+    color: $pl-fonts-red-alerts;
+    margin-top: 4px;
+    position: absolute;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

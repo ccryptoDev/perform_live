@@ -1,0 +1,118 @@
+.delete-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+
+  .modal-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 4, 16, 0.4);
+    backdrop-filter: blur(12px);
+  }
+  .modal-body {
+    width: 463px;
+    background: radial-gradient(213.17% 100% at 8.16% 100%, rgba(27, 152, 186, 0.6) 0%, rgba(55, 29, 59, 0) 100%), radial-gradient(181.11% 100% at 94.17% 0%, rgba(249, 25, 86, 0.6) 0%, rgba(55, 29, 59, 0) 100%), linear-gradient(167.96deg, #13173B 0%, #40143B 0.01%, #19163B 100%);
+    border-radius: 18px;
+    padding: 24px;
+    z-index: 2;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right:0;
+      bottom:0;
+      padding: 1px;
+      border-radius: 16px;
+      background: linear-gradient(169deg, #F91956 19%, #20E0EC 100%);
+      mask: linear-gradient(169deg, #F91956 19%, #20E0EC 100%) content-box;
+      -webkit-mask:
+      linear-gradient(169deg, #F91956 19%, #20E0EC 100%) content-box,
+      linear-gradient(169deg, #F91956 19%, #20E0EC 100%);
+      -webkit-mask-composite: destination-out;
+      mask-composite: exclude;
+    }
+    .modal-title {
+      margin: 0;
+    }
+
+    .modal-description {
+      font-size: 15px;
+      line-height: 23px;
+      text-align: center;
+      color: #ffffff;
+      padding: 0;
+      margin-top: 16px;
+    }
+    .modal-action {
+      margin-top: 22px;
+      display: flex;
+      align-items: center;
+      width: 100%;
+
+      & > *:first-child {
+        margin-right: 10px;
+      }
+
+      .overlay {
+        position: absolute;
+        width: 196px;
+        height: 36px;
+        border-radius: 24px;
+        background-color: #4D1948;
+        z-index: 1;
+      }
+      .backend {
+        position: absolute;
+        width: 200px;
+        height: 40px;
+        border-radius: 24px;
+        background: linear-gradient(165deg , #f91956 20%, #20e0ec 80%);
+        transition-duration: 0.25s;
+      }
+      .delete-action {
+        display: flex;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 23px;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        img {
+          margin-right: 5px;
+        }
+
+      }
+      .cancel-action {
+        background: linear-gradient(131.41deg, #f91956 12.78%, #20e0ec 85.73%);
+        width: 200px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 23px;
+        border-radius: 24px;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+    }
+  }
+}

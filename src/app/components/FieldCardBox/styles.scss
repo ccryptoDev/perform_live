@@ -1,0 +1,34 @@
+.fieldcardbox-container{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .edit-btnicon-container{
+    cursor: pointer;
+  }
+
+  .input-group {
+    display: flex;
+    align-items: center;
+    &:last-child{
+      padding-bottom: 0;
+    }
+    .form-control {
+      cursor: text;
+      flex: 1;
+      border: none;
+      color: #FFF;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    .input-group-prepend {
+        margin-right: 10px;
+    }
+  }
+}

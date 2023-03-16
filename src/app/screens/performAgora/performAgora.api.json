@@ -1,0 +1,18 @@
+{
+  "GET_PERFORMANCE_INFO": "performance/id/{id}",
+  "GET_PERFORMANCE_INFO_PRIVATE": "performer/performance/id/{id}",
+
+  "GET_PERFORMANCE_PERFORMER_INFO": "performance/id/{id}/performer",
+  "GET_PERFORMANCE_PERFORMER_INFO_PRIVATE": "performer/performance/id/{id}/performer",
+
+  "GET_PERFORMANCE_JOIN_TOKEN": "agora/videoStreamToken",
+  "GET_PERFORMANCE_PREVIEW": "performance/id/{id}/preview",
+  "GET_PERFORMANCE_PREVIEW_PRIVATE": "performer/performance/id/{id}/preview",
+  "UPDATE_PERFORMANCE_STATUS": "performer/performance/id/{id}/start",
+  "SET_PERFORMANCE_STATUS_FINISH": "performer/performance/id/{id}/finish",
+  "SAVE_AGORA_ANALYTICS": "performance/id/{id}/agoraAnalytics",
+  "POST_REPORT_USER": "performer/report/id/{id}",
+  "POST_REPORT_MESSAGE": "performer/report/id/{id}/message",
+  "POST_REPORT_PERFORMER": "performer/report/id/{id}/performance",
+  "PUT_BLOCK_USER": "performer/blocker/id/{id}/block"
+}

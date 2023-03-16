@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AuthRouteCheck /> renders correctly 1`] = `
+<withAuthCheck
+  accessToken="123"
+/>
+`;

@@ -1,0 +1,56 @@
+.share-link-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #E7D1E8;
+
+  button,
+  .share-link {
+    width: 64px;
+    height: 64px;
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 50%;
+    margin-bottom: 8px;
+
+    &.share-link-active {
+      background-color: #FFFFFF !important;
+      border-color: #FFFFFF;
+    }
+
+    .share-icon {
+      circle {
+        fill: transparent !important;
+      }
+    }
+  }
+
+  .kep-login-facebook {
+    width: 64px;
+    height: 64px;
+    text-indent: -9999px;
+    border-radius: 50% !important;
+    position: relative;
+
+    &:after {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      content:'';
+      width: 35px;
+      height: 35px;
+      background: url('~assets/svg/instagram.svg') no-repeat center;
+      background-size: contain;
+      display: block;
+
+    }
+  }
+
+}

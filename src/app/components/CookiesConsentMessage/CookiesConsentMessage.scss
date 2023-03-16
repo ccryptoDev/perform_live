@@ -1,0 +1,36 @@
+@import '~app/styles/core';
+
+.cookie-policy-message {
+  width: 100%;
+  z-index: 5000;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 1.6rem;
+  display: flex;
+  box-shadow: $app-shadow-element;
+  background: $app-text-secondary;
+
+  p {
+    flex: 9;
+    color: $app-text-white;
+    padding: 0 4.5rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+
+    @include media(mobile down) {
+      padding: 0.5rem;
+    }
+  }
+
+  span {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+
+    .confirm-btn {
+      padding: 0.75rem 1.5rem;
+    }
+  }
+}

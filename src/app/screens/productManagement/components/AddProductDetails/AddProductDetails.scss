@@ -1,0 +1,223 @@
+@import '~app/styles/core.scss';
+
+
+.gallery-details {
+  margin-top: 22px;
+  .input-group {
+    width: 100%;
+    margin-top: 19px;
+    position: relative;
+    &:first-child {
+      margin-top: 0;
+    }
+    .text {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .title {
+        padding-left: 16px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #c3a2c5;
+      }
+      .number {
+        padding-right: 16px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: right;
+        color: #c3a2c5;
+      }
+    }
+    .input-text {
+      padding: 8.5px 16px 8.5px 16px;
+      margin-top: 2px;
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+      border-radius: 24px;
+      width: 100%;
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: normal;
+      line-height: 22px;
+      border: 1.5px solid rgba(255, 255, 255, 0.15);
+      display: inline-block;
+      &:hover {
+        border: 1.5px solid transparent !important;
+        background: linear-gradient(#624260, #624260) padding-box,
+          /*this is your grey background*/
+            linear-gradient(to right, #f91956 12.78%, #20e0ec 85.73%) border-box;
+      }
+      &:focus {
+        border: 1.5px solid transparent !important;
+        background: linear-gradient(r#624260, #624260) padding-box,
+          /*this is your grey background*/
+            linear-gradient(to right, #f91956 12.78%, #20e0ec 85.73%) border-box;
+      }
+    }
+    .dropdown-input {
+      cursor: pointer;
+    }
+    .cat-dropdown {
+      position: absolute;
+      right: 24px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+
+    .input-description {
+      padding: 8.5px 16px 8.5px 16px;
+      margin-top: 2px;
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+      border-radius: 18px;
+      width: 100%;
+      color: #c3a2c5;
+      border: 1.5px solid rgba(255, 255, 255, 0.15);
+      font-size: 15px;
+      font-weight: normal;
+      line-height: 22px;
+      resize: none;
+      &:hover {
+        border: 1.5px solid transparent !important;
+        background: linear-gradient(#624260, #624260) padding-box,
+          /*this is your grey background*/
+            linear-gradient(to right, #f91956 12.78%, #20e0ec 85.73%) border-box;
+      }
+      &:focus {
+        border: 1.5px solid transparent !important;
+        background: linear-gradient(r#624260, #624260) padding-box,
+          /*this is your grey background*/
+            linear-gradient(to right, #f91956 12.78%, #20e0ec 85.73%) border-box;
+      }
+    }
+  }
+  .price-detail {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    .input-container {
+      width: 100%;
+    }
+
+
+    .custom-price {
+      position: relative;
+      width: 47%;
+      .top-text {
+        padding-left: 16px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #c3a2c5;
+      }
+      .input-group {
+        margin-top: 2px;
+        position: relative;
+        .input {
+          padding: 8.5px 16px 8.5px 16px;
+          margin-top: 2px;
+          background: rgba(255, 255, 255, 0.15);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+          border-radius: 24px;
+          width: 100%;
+          color: #ffffff;
+          border: 1.5px solid rgba(255, 255, 255, 0.15);
+          font-size: 15px;
+          font-weight: normal;
+          line-height: 22px;
+          &:hover {
+            border: 1.5px solid transparent !important;
+            background: linear-gradient(#624260, #624260) padding-box,
+              /*this is your grey background*/
+                linear-gradient(to right, #f91956 12.78%, #20e0ec 85.73%)
+                border-box;
+          }
+          &:focus {
+            border: 1.5px solid transparent !important;
+            background: linear-gradient(r#624260, #624260) padding-box,
+              /*this is your grey background*/
+                linear-gradient(to right, #f91956 12.78%, #20e0ec 85.73%)
+                border-box;
+          }
+        }
+        .text {
+          position: absolute;
+          right: 12px;
+          top: 13px;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 22px;
+          color: #c3a2c5;
+        }
+      }
+    }
+    .vector {
+      padding: 0 20px;
+    }
+  }
+
+  .platform {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .text {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      color: #ffffff;
+    }
+  }
+
+  .learn {
+    margin-left: 8px;
+    font-weight: normal;
+    font-size: 12px;
+    text-decoration-line: underline;
+    color: #1ce4f0;
+  }
+
+  .product-agreement-wrapper {
+
+  }
+
+  .product-agreement__error {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: $pl-fonts-red-alerts;
+    display: flex;
+    align-items: center;
+  }
+
+  .product-agreement {
+    margin-top: 24px;
+    display: flex;
+
+    p {
+      font-weight: 500;
+      font-size: 12px;
+      color: white;
+      margin-left: 20px;
+      padding-top: 0;
+    }
+  }
+}
+
+.product-details__action-btns {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+
+  .btn {
+    width: 100%;
+  }
+}

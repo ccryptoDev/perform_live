@@ -1,0 +1,140 @@
+.expand-side {
+  position: absolute;
+  right: 0;
+  transition: height 0.4s;
+  width: 128px;
+  overflow-y: auto;
+  margin-top: 100px;
+  height: 315px;
+  &.active {
+    height: 75%;
+    overflow-y: auto;
+  }
+  .products-ban {
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 120px;
+    padding-top: 15px;
+    position: relative;
+    border-top: 1px dashed rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    &:first-child {
+      margin-top: 0;
+      border-top: 0;
+    }
+    .products-img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px 8px 0 0;
+    }
+
+    .products-img.focused{
+      position: relative;
+      background: linear-gradient(169deg, #F91956 13%, #20E0EC 100%);
+      padding: 5px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      backdrop-filter: blur(20px);
+    }
+
+    .products-text {
+      width: 100px;
+      padding: 4px 8px;
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 16px;
+      color: #ffffff;
+      background: radial-gradient(132.46% 61.18% at 0% 100%, rgba(32, 224, 236, 0.3) 6.38%, rgba(56, 23, 53, 0) 100%), radial-gradient(150.77% 69.63% at 102.91% 0%, rgba(249, 25, 86, 0.3) 19.56%, rgba(60, 22, 56, 0) 96.66%), linear-gradient(167.96deg, rgba(77, 25, 72, 0.4) 0%, rgba(41, 19, 38, 0.4) 100%);
+      backdrop-filter: blur(21px);
+      border-radius: 0 0 8px 8px;
+    }
+    .price-text {
+      margin-top: 4px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      color: #ffffff;
+      width: 100%;
+      background: rgba(243, 31, 89, 0.4);
+      border: 1px solid rgba(243, 31, 89, 0.6);
+      box-sizing: border-box;
+      backdrop-filter: blur(12px);
+      border-radius: 29px;
+      text-align: center;
+      padding: 4px;
+    }
+    .add-cart {
+      margin-top: 8px;
+      background: linear-gradient(131.41deg, #f91956 12.78%, #20e0ec 85.73%);
+      border-radius: 24px;
+      padding: 6px 13px;
+      border: none;
+      color: #ffffff;
+      font-size: 10px;
+      width: 100%;
+      text-align: center;
+      font-weight: 500;
+      line-height: 16px;
+      text-transform: uppercase;
+    }
+    .border-line {
+      margin-top: 12px;
+      width: 104px;
+      border: 1px dashed rgba(255, 255, 255, 0.2);
+    }
+    .mask {
+      position: absolute;
+      top: -10px;
+      left: -9px;
+      width: 120px;
+      height: 120px;
+      background: linear-gradient(131.41deg, #f91956 12.78%, #20e0ec 85.73%);
+      mix-blend-mode: hard-light;
+      -webkit-filter: blur(20px);
+      filter: blur(20px);
+    }
+  }
+}
+.more-btn {
+  position: absolute;
+  top: 425px;
+  right: 16px;
+  background: rgba(60, 18, 55, 0.6);
+  border: 1px solid rgba(60, 18, 55, 0.6);
+  box-sizing: border-box;
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+  color: #ffffff;
+  padding: 6px 13px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 16px;
+  line-height: 16px;
+  width: 104px;
+  text-align: left;
+  z-index: 99;
+  &.active {
+    top: auto;
+    bottom: 83px;
+    z-index: 99;
+  }
+  .down-icon {
+    background: url(~assets/svg/performlive/down.svg) no-repeat;
+    background-size: cover;
+    text-align: right;
+    width: 13px;
+    height: 10px;
+    position: absolute;
+    margin-left: 4px;
+    margin-top: 2px;
+    &.active {
+      background: url(~assets/svg/performlive/up.svg) no-repeat;
+    }
+  }
+}

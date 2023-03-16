@@ -1,0 +1,16 @@
+.stripecardform{
+  flex: 1;
+  .stripecardinput{
+    flex: 1;
+    background: #fff;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .stripecard__btn {
+    background: #3C4E9A;
+    border-radius: 0;
+    margin: 0;
+  }
+}

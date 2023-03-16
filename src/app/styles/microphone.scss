@@ -1,0 +1,139 @@
+.microphone {
+  position: absolute;
+  width: 100%;
+  font-family: Graphik;
+  font-style: normal;
+  color: #2C2F34;
+  z-index: 10;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: top 0.6s;
+  top: -1000px;
+  background: rgba(17, 4, 16, 0.4);
+  backdrop-filter: blur(12px);
+  padding-top: 107px;
+  &.active {
+    top: 0;
+    bottom: 0;
+  }
+  .check-layout {
+    background: radial-gradient(213.17% 100% at 8.16% 100%, rgba(27, 152, 186, 0.6) 0%, rgba(55, 29, 59, 0) 100%), radial-gradient(181.11% 100% at 94.17% 0%, rgba(249, 25, 86, 0.6) 0%, rgba(55, 29, 59, 0) 100%), linear-gradient(167.96deg, #13173B 0%, #40143B 0.01%, #19163B 100%);
+    border-radius: 18px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.07);
+    width: 560px;
+    top: 162px;
+    margin: 107px auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #ffffff;
+    .card {
+      position: relative;
+      padding: 24px;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right:0;
+        bottom:0;
+        padding: 1px;
+        border-radius: 16px;
+        background: linear-gradient(169deg, #F91956 19%, #20E0EC 100%);
+        mask: linear-gradient(169deg, #F91956 19%, #20E0EC 100%) content-box;
+        -webkit-mask:
+        linear-gradient(169deg, #F91956 19%, #20E0EC 100%) content-box,
+        linear-gradient(169deg, #F91956 19%, #20E0EC 100%);
+        -webkit-mask-composite: destination-out;
+        mask-composite: exclude;
+        z-index: -1;
+      }
+      cursor: auto;
+      .close {
+        display: flex;
+        justify-content: space-between;
+        .back {
+          cursor: pointer;
+          position: absolute;
+        }
+        .close-btn {
+          cursor: pointer;
+        }
+      }
+      .circle-btn {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 24px 24px 0 0;
+
+        & > img {
+          margin: 0;
+        }
+      }
+      .card-header {
+        margin-top: 16px;
+        .title {
+          font-weight: 600;
+          font-size: 25px;
+          line-height: 28px;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+      .check-body {
+        padding: 0px 36px 40px 36px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .check-icon {
+          margin-top: 24px;
+          text-align: center;
+          width: 24px;
+          height: 24px;
+        }
+        .test-text {
+          font-weight: bold;
+          font-size: 15px;
+          line-height: 22px;
+          color: #C3A2C5;
+          margin-top: 12px;
+          display: flex;
+          justify-content: center;
+
+          select {
+            margin-right: 8px;
+            margin-left: 8px;
+          }
+          .microphone-icon {
+            margin-left: 8px;
+          }
+          .microphone-select {
+            background: transparent;
+            border: none;
+            color: #1CE4F0;
+            font-size: 15px;
+            line-height: 22px;
+            margin: 0 15px;
+            font-weight: bold;
+
+            option {
+              color: #000;
+            }
+          }
+        }
+        .camera-field {
+          margin-top: 25px;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          .camera-img {
+            width: 100%;
+            width: 194px;
+            height: 194px;
+          }
+        }
+      }
+    }
+  }
+}

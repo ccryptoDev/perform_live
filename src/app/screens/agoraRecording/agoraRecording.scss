@@ -1,0 +1,17 @@
+@import '~app/styles/core';
+@import '~app/styles/_colors';
+.body-container {
+  padding-top: 0 !important;
+  .content-wrapper {
+    height: 100vh;
+    .content-body {
+      height: 100vh;
+    }
+  }
+  .bottom-sidebar {
+    height: calc(100vh - 100px) !important;
+    .chat-body {
+      height: 100%;
+    }
+  }
+}

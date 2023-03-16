@@ -1,0 +1,13 @@
+{
+  
+  "UPLOAD_PREVIEW": "file/upload/multiple",
+  "CREATE_PERFORMANCE": "performer/performance",
+  "UPDATE_PERFORMANCE": "performer/performance/id/{id}",
+  "DELETE_PERFORMANCE": "performer/performance/id/{id}",
+  "CREATE_PERFORMANCE_PREVIEW": "performer/performance/id/{id}/preview",
+  "ADD_PERFORMANCE_PRODUCTS": "performer/performance/id/{id}/product/{productId}",
+  "GET_PERFORMER_TAG_OPTIONS": "performer/tag/options",
+  "VERIFY_PERFORMER_TAG": "performer/public/tag/{tag}/available",
+  "GET_PERFORMANCE_CATEGORIES": "performer/performance/id/{id}/categories",
+  "DELETE_PERFORMANCE_PREVIEW": "performer/performance/id/{id}/preview"
+}

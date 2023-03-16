@@ -1,0 +1,86 @@
+@import '~app/styles/core.scss';
+
+.social-share-link-modal {
+  background: rgba(17, 4, 16, 0.4);
+  backdrop-filter: blur(4px);
+
+  .modal-content {
+    max-width: 560px;
+    border-radius: 18px;
+    background: linear-gradient(173deg, #F91956 12.78%, #20E0EC 85.73%);
+    //background: linear-gradient(167.96deg, #4D1948 0%, #291326 100%),
+    //linear-gradient(176.26deg, #4D1948 0%, #291326 48.11%);
+    position: relative;
+    border: none;
+    box-shadow: none;
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 1px;
+      left: 1px;
+      width: calc(100% - 2px);
+      height: calc(100% - 2px);
+      background: linear-gradient(167.96deg, #4D1948 0%, #291326 100%),
+      linear-gradient(176.26deg, #4D1948 0%, #291326 48.11%);
+      border-radius: 18px;
+      z-index: 0;
+    }
+    .modal-header {
+      z-index: 2;
+      position: relative;
+      .modal-title {
+        color: #fff;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 17px;
+        @include media(mobile down) {
+          text-align: left;
+        }
+      }
+      .close {
+        color: #fff;
+        top: -2px;
+        right: 9px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        font-size: 24px;
+        background: rgba(255, 255, 255, 0.15);
+        border: 0.5px solid rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(12px);
+      }
+    }
+    .modal-body {
+      z-index: 2;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 64px 35px;
+      & > div:hover {
+        background-color: rgba(255, 255, 255, 0.25);
+      }
+    }
+    .modal-message {
+      z-index: 2;
+      
+    }
+    .modal-action {
+      height: 90px;
+      width: 558px;
+      z-index: 999;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      button {
+        margin: 10px;
+      }
+    }
+  }
+
+
+}

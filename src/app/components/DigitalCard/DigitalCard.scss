@@ -1,0 +1,25 @@
+@import '~app/styles/_colors.scss';
+
+.digital-card-container{
+  display: flex;
+  justify-content: space-between;
+
+  .digital-card-header {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .digital-card-subheader {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: $pl-fonts-pink-medium;
+    padding-top: 8px;
+  }
+
+  .digital-card-cash {
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto 0;
+  }
+}

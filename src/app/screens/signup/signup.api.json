@@ -1,0 +1,4 @@
+{
+  "USER_SIGNUP": "user/signUp/email",
+  "USER_AVAILABLE_EMAIL": "email/available"
+}

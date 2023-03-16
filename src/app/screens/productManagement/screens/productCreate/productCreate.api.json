@@ -1,0 +1,7 @@
+{
+    "UPLOAD_GALLERY": "file/upload/multiple",
+    "CREATE_PRODUCT": "performer/product",
+    "UPDATE_PRODUCT": "performer/product/id/{id}",
+    "UPDATE_PRODUCT_GALLERY": "performer/product/id/{id}/gallery",
+    "DELETE_PRODUCT_IMAGE": "performer/product/id/{id}/gallery/{galleryId}"
+}

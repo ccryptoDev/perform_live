@@ -1,0 +1,32 @@
+.full-view {
+
+  .header-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 29px;
+    .view-text {
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      color: #1ce4f0;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 5px;
+      &:before {
+        content: '';
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-image: url("~assets/svg/home/back-arrow.svg");
+        margin-right: 4px;
+      }
+    }
+  }
+  .cards {
+    margin-right: -17px;
+  }
+}

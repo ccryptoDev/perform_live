@@ -1,0 +1,97 @@
+.performer-live-buttons {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  height: 72px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  > button {
+    margin-left: 20px;
+  }
+  .open-setting {
+    font-weight: normal;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .recording-btn {
+    width: 200px;
+    &::before {
+      position: relative;
+    }
+  }
+}
+
+.finish-performance-container {
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -59px;
+  right: -376px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(17, 4, 16, 0.4);
+  backdrop-filter: blur(12px);
+  position: absolute;
+}
+.finish-performance-modal {
+  width: 400px;
+  background: radial-gradient(213.17% 100% at 8.16% 100%, rgba(27, 152, 186, 0.6) 0%, rgba(55, 29, 59, 0) 100%), radial-gradient(181.11% 100% at 94.17% 0%, rgba(249, 25, 86, 0.6) 0%, rgba(55, 29, 59, 0) 100%), linear-gradient(167.96deg, #13173B 0%, #40143B 0.01%, #19163B 100%);
+  border-radius: 16px;
+  padding: 24px;
+  color: #f8f8f8;
+  text-align: center;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+    padding: 1px;
+    border-radius: 16px;
+    background: linear-gradient(169deg, #F91956 19%, #20E0EC 100%);
+    mask: linear-gradient(169deg, #F91956 19%, #20E0EC 100%) content-box;
+    -webkit-mask:
+    linear-gradient(169deg, #F91956 19%, #20E0EC 100%) content-box,
+    linear-gradient(169deg, #F91956 19%, #20E0EC 100%);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+  }
+
+  h2 {
+    margin: 0;
+  }
+  p {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #eeeeee;
+    padding: 0;
+    margin-top: 16px;
+  }
+
+  & > div {
+    display: flex;
+    margin-top: 22px;
+  }
+}
+
+.finish-performance-modal__controls {
+  & > *:first-child {
+    margin-right: 10px;
+  }
+
+  .btn {
+    padding: 9px 12px;
+  }
+}

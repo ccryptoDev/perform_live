@@ -1,0 +1,11 @@
+node_modules/
+dist/
+Dockerfile*
+sql/
+.prettierc
+yarn-error.log
+docker-compose.yml
+# src/
+Jenkinsfile
+version.json
+devops/

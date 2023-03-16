@@ -1,0 +1,57 @@
+@import '~app/styles/core';
+
+.paymentshipping-container {
+  flex: 1;
+  margin-left: 242px;
+  .paymentshippingcontent-container {
+    padding-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .content {
+      width: 680px;
+      .card {
+        padding: 24px;
+        padding-bottom: 48px;
+        padding-top: 32px;
+        background: linear-gradient(
+          100.45deg,
+          rgba(255, 255, 255, 0.15) 3.19%,
+          rgba(255, 255, 255, 0.03) 100%
+        );
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        box-sizing: border-box;
+        border-radius: 16px;
+        margin-bottom: 16px;
+        .card-title {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          color: #FFFFFF;
+          margin-bottom: 40px;
+        }
+        .cardform-container{
+          background: rgba(255, 255, 255, 0.15);
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          box-sizing: border-box;
+          border-radius: 10px;
+        }
+        .stripeelement-container {
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          max-width: 632px;
+          background: rgba(255,255,255,0.15);
+          border: 1px solid rgba(255,255,255,0.15);
+          border-radius: 10px;
+          padding: 16px;
+          .stripefield {
+            flex: 1;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,176 @@
+.upload-modal {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 10;
+   .modal-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(17, 4, 16, 0.4);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+   }
+   
+   .modal-body {
+      width: 560px;
+      background: radial-gradient(132.46% 61.18% at 0% 100%, rgba(32, 224, 236, 0.3) 6.38%, rgba(56, 23, 53, 0) 100%), radial-gradient(150.77% 69.63% at 102.91% 0%, rgba(249, 25, 86, 0.3) 19.56%, rgba(60, 22, 56, 0) 96.66%), linear-gradient(
+  167.96deg, #4D1948 0%, #291326 100%);
+      border-radius: 15px;
+      padding: 24px;
+      z-index: 2;
+      position: relative;
+      border: 1px solid #20e0ec;
+      max-height: calc(100vh - 200px);
+      overflow-y: auto;
+      h3 {
+         font-size: 24px;
+         font-weight: 600;
+         line-height: 36px;
+         text-align: center;
+         color: white;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border-top-left-radius: 15px;
+         border-top-right-radius: 15px;
+      }
+      .avatar {
+         width: 100%;
+         margin: 20px 0px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         .input-file {
+            display: none;
+         }
+         .default-avatar {
+            width: 200px;
+            height: 200px;
+         }
+      }
+      .file-ctrl {
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: center;
+         margin-bottom: 40px;
+         .ctrl-title {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            img {
+               width: 20px;
+               height: 20px;
+            }
+            span {
+               margin-left: 10px;
+               color: white;
+               font-weight: 200;
+               font-size: 15px;  
+               line-height: 24px;
+            }
+         }
+         .ctrl-zoom {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 50px;
+            button {
+               font-weight: 400;
+               font-size: 40px !important;
+               color: white;
+               padding: 0px !important;
+               margin: 0px !important;
+               cursor: pointer;
+            }
+         }
+         .ctrl-btn {
+            margin-top: 10px;
+         }
+         .ctrl-remove {
+            margin-top: 10px;
+         }
+      }
+      .close {
+         position: absolute;
+         top: 24px;
+         right: 24px;
+         .close-icon {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+         }
+      }
+      .modal-action {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-around;
+         
+         & > div {
+           margin: 5px;
+           width: 48%;
+         }
+         .overlay {
+           position: absolute;
+           width: 196px;
+           height: 36px;
+           border-radius: 24px;
+           background-color: #4D1948;
+           z-index: 1;
+         }
+         .backend {
+           position: absolute;
+           width: 250px;
+           height: 40px;
+           border-radius: 24px;
+           background: linear-gradient(165deg , #f91956 20%, #20e0ec 80%);
+           transition-duration: 0.25s;
+         }
+         .delete-action {
+           display: flex;
+           width: 250px;
+           height: 40px;
+           justify-content: center;
+           align-items: center;
+           font-size: 15px;
+           font-weight: 400;
+           line-height: 23px;
+           color: white;
+           text-transform: uppercase;
+           cursor: pointer;
+           img {
+             margin-right: 5px;
+           }
+           
+         }
+         .cancel-action {
+           background: linear-gradient(131.41deg, #f91956 12.78%, #20e0ec 85.73%);
+           width: 250px;
+           height: 40px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           color: white;
+           font-family: Poppins;
+           font-size: 15px;
+           font-weight: 600;
+           line-height: 23px;
+           border-radius: 24px;
+           text-transform: uppercase;
+           cursor: pointer;
+         }
+      }
+   }
+}

@@ -1,0 +1,55 @@
+@import '~app/styles/_colors';
+
+.tabs {
+  margin-right: 16px;
+  border-bottom: 1px dashed $pl-white;
+  display: flex;
+  align-items: center;
+
+  .tab {
+    all: unset;
+
+    padding: 15px 20px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: $pl-fonts-pink-medium;
+    cursor: pointer;
+
+    &.active {
+      color: $pl-white;
+      border-bottom: 4px solid $pl-white;
+    }
+
+    span {
+      margin-right: 4px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+}
+
+.earnings_data {
+  background: linear-gradient(100.45deg, rgba(255, 255, 255, 0.15) 3.19%, rgba(255, 255, 255, 0.03) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
+  backdrop-filter: blur(32px);
+  border-radius: 18px;
+  padding-left: 24px;
+  z-index: 1;
+}
+
+.earnings__title {
+  padding: 32px 0 24px 0;
+}
+
+.earnings__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.earnings-table {
+  backdrop-filter: blur(32px);
+}

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> renders correctly 1`] = `
+<ul
+  className="footer"
+>
+  <NavLink
+    activeClassName="active"
+    exact={true}
+    isActive={[Function]}
+    key="Open"
+    to={null}
+  >
+    <li
+      className="footer-item"
+    >
+      <img
+        alt="Open"
+        className="menu-icon"
+        src={true}
+      />
+      <div
+        className="menu-text"
+      >
+        Open
+      </div>
+    </li>
+  </NavLink>
+</ul>
+`;

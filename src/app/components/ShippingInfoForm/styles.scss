@@ -1,0 +1,62 @@
+@import '~app/styles/core';
+
+.shippinginfo-form-container {
+  flex: 1;
+  padding: 24px;
+  padding-top: 27px;
+  padding-bottom: 23.5px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  .name-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .input-container {
+      width: 100%;
+    }
+    .name-container-input {
+      flex: 1;
+    }
+  }
+  .address-container {
+    .statezip-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .input-container {
+        width: 100%;
+      }
+    }
+  }
+  .contacts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .phoneinput-container{
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      overflow: hidden;
+    }
+    .input-container {
+      width: 100%;
+    }
+  }
+  .form-btn-container {
+    margin-top: 48.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  button {
+    box-sizing: border-box;
+    // max-width: 284px;
+    max-height: 40px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

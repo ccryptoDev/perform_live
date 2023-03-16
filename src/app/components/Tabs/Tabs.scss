@@ -1,0 +1,32 @@
+@import '~app/styles/_colors';
+
+.tabs {
+  margin-right: 16px;
+  border-bottom: 1px dashed $pl-white;
+  display: flex;
+  align-items: center;
+
+  .tab {
+    all: unset;
+
+    padding: 15px 20px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: $pl-fonts-pink-medium;
+    cursor: pointer;
+
+    &.active {
+      color: $pl-white;
+      border-bottom: 4px solid $pl-white;
+    }
+
+    span {
+      margin-right: 4px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+}

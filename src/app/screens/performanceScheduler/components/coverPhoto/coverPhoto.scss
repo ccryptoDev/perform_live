@@ -1,0 +1,80 @@
+.cover-photo-container {
+  background: linear-gradient(
+    100.45deg,
+    rgba(255, 255, 255, 0.15) 3.19%,
+    rgba(255, 255, 255, 0.03) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
+  backdrop-filter: blur(32px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 18px;
+
+  padding: 32px 24px;
+  margin-bottom: 96px;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 13px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 22px;
+    color: white;
+    padding: 0;
+    margin-bottom: 21px;
+  }
+
+  .add-img__wrapper {
+    display: flex;
+    align-items: center;
+
+    .add-img {
+      border: 1.5px dashed #1ce4f0;
+      border-radius: 12px;
+      box-sizing: border-box;
+      width: 176px;
+      height: 330px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 15px;
+      text-align: center;
+      color: #1ce4f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      span {
+        margin-left: 6px;
+      }
+    }
+
+    .description {
+      color: white;
+      font-weight: normal;
+      font-size: 15px;
+      width: 202px;
+      height: 48px;
+      margin-left: 24px;
+    }
+  }
+  .img-preview {
+    position: relative;
+    border: none;
+
+    .cover-img {
+      width: 100%;
+      height: 100%;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+    .delete-icon {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+    }
+  }
+}

@@ -1,0 +1,139 @@
+.performance-plan-modal {
+  .modal {
+      font-family: Graphik;
+      font-style: normal;
+      color: #2C2F34;
+      z-index: 10;
+      overflow-x: hidden;
+      overflow-y: auto;
+      &.fade {
+        transition: opacity 0.15s linear;
+      }
+      .modal-plan {
+        background: #FFFFFF;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.07);
+        border-radius: 10px;
+        width: 467px;
+        top: 162px;
+        margin: 107px auto;
+        .card {
+          position: relative;
+          .close {
+            display: flex;
+            justify-content: flex-end;
+            padding-top: 19px;
+            padding-right: 19px;
+          }
+          .card-header {
+            margin-top: 11px;
+            .title {
+              font-weight: 600;
+              font-size: 25px;
+              line-height: 28px;
+              text-align: center;
+              color: #2C2F34;
+            }
+            .question {
+              margin-top: 9px;
+              font-size: 15px;
+              line-height: 21px;
+              text-align: center;
+              color: #565D66;
+            }
+          }
+          .modal-body {
+            padding: 35px 20px 22px 20px;
+            .share {
+              border: 1px solid #E0E4E8;
+              box-sizing: border-box;
+              box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+              border-radius: 6px;
+              .talent {
+                padding: 20px;
+                position: relative;
+                .mike {
+                  width: 30px;
+                  height: 23px;
+                  vertical-align: middle;
+                }
+                .text {
+                  margin-left: 16px;
+                  font-weight: 500;
+                  font-size: 18px;
+                  line-height: 20px;
+                  color: #2C2F34;
+                  vertical-align: middle;
+                }
+                .arrow {
+                  position: absolute;
+                  top: 23px;
+                  right: 23px;
+                  vertical-align: middle;
+                }
+              }
+            }
+            .sell {
+              border: 1px solid #E0E4E8;
+              box-sizing: border-box;
+              box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+              border-radius: 6px;
+              margin-top: 14px;
+              .talent {
+                padding: 20px;
+                position: relative;
+                .mike {
+                  width: 30px;
+                  height: 23px;
+                  vertical-align: middle;
+                }
+                .text {
+                  margin-left: 16px;
+                  font-weight: 500;
+                  font-size: 18px;
+                  line-height: 20px;
+                  color: #2C2F34;
+                  vertical-align: middle;
+                }
+                .arrow {
+                  position: absolute;
+                  top: 23px;
+                  right: 23px;
+                  vertical-align: middle;
+                }
+              }
+            }
+            .share-sell {
+              border: 1px solid #E0E4E8;
+              box-sizing: border-box;
+              box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+              border-radius: 6px;
+              margin-top: 14px;
+              .talent {
+                padding: 20px;
+                position: relative;
+                .mike {
+                  width: 30px;
+                  height: 23px;
+                  vertical-align: middle;
+                }
+                .text {
+                  margin-left: 16px;
+                  font-weight: 500;
+                  font-size: 18px;
+                  line-height: 20px;
+                  color: #2C2F34;
+                  vertical-align: middle;
+                }
+                .arrow {
+                  position: absolute;
+                  top: 23px;
+                  right: 23px;
+                  vertical-align: middle;
+                }
+              }
+            }
+          }
+        }
+      }
+  }
+}

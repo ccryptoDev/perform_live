@@ -1,0 +1,112 @@
+@import '~app/styles/_colors';
+
+.screen-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 38px 0;
+  margin-left: 242px;
+
+  .back-btn {
+    position: absolute;
+    top: 37px;
+    left: -15px;
+    width: auto;
+    border: none;
+    align-self: flex-start;
+    color: $pl-blue;
+    .back-btn-icon {
+      padding: 7px;
+    }
+  }
+
+  .content-wrap {
+    .order-details-header {
+      font-size: 32px;
+      font-weight: 700;
+      color: #fff;
+      padding-bottom: 40px;
+      margin: 0;
+    }
+    .digital-order-date{
+      padding-left: 25px;
+      font-size: 14px;
+      font-weight: 400;
+      color: $pl-fonts-pink-medium;
+    }
+  }
+}
+
+.shipping__modal {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #EEEEEE;
+
+  .modal__body {
+    width: 400px;
+    .modal__top {
+      margin-left: 24px;
+      margin-right: 24px;
+    }
+    .h2 {
+      text-align: center;
+    }
+  }
+
+  .modal__text {
+    text-align: center;
+  }
+
+  .steps__option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+  }
+}
+
+.modal__form {
+  .modal__body {
+    width: 632px;
+  }
+
+  .modal__top {
+    margin: 0;
+  }
+
+  .modal__title {
+    margin-top: 0;
+
+    span {
+      color: #c3a2c5;
+    }
+  }
+
+  .modal__text {
+    margin-bottom: 27px;
+  }
+
+  .shippinginfo-form-container {
+    padding: 0;
+
+    .form-btn-container {
+      margin-top: 15px;
+    }
+  }
+}
+
+.modal__btns {
+  display: flex;
+  margin-top: 20px;
+
+  & > * {
+    width: 50%;
+  }
+
+  & > *:first-child {
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,23 @@
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px 60px;
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .effect-name {
+      margin-top: 9px;
+      font-family: Graphik;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 12px;
+      text-align: center;
+      color: #17191B;
+    }
+  }
+}

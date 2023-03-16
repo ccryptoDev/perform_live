@@ -1,0 +1,124 @@
+@import '~app/styles/_colors';
+
+
+
+.calendar-input-wrapper {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+
+
+  .react-datepicker {
+    font-size: 1.5rem !important;
+    border-radius: 15px !important;
+
+  }
+
+  .react-datepicker__current-month {
+    font-size: 1.8rem;
+    line-height: 30px;
+  }
+
+  .react-datepicker__day--keyboard-selected, .react-datepicker__day--selected {
+    border-radius: 10px !important;
+    background: linear-gradient(180deg, #521d4d 0%, #33152f 100%);
+  }
+
+  .react-datepicker__header {
+    padding-top: 6px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .react-datepicker__navigation {
+    top: 15px !important;
+  }
+
+  .react-datepicker__day-name,
+  .react-datepicker__day {
+    margin: 3px;
+    padding: 10px;
+    flex: 1;
+    width: auto;
+  }
+
+  .saturday {
+    color: rgb(0, 0, 255) !important;
+  }
+
+  .sunday {
+    color: rgb(255, 0, 0) !important;
+  }
+
+  .react-datepicker__day--disabled {
+    color: #cccccc !important;
+  }
+  .react-datepicker__week {
+    display: flex;
+  }
+
+  .calendar  {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 15px;
+  }
+
+  .dropdown {
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    right: 15px;
+  }
+
+  .input__input{
+    padding-left: 50px !important;
+    cursor: auto;
+  }
+
+  &:hover .input__shadow {
+    opacity: 1;
+  }
+}
+
+.datepicker-input-container {
+
+  .text {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: $pl-fonts-pink-medium;
+    z-index: 1;
+  }
+
+  .input-title {
+    padding-left: 16px;
+  }
+
+  .input-counter {
+    padding-right: 16px;
+  }
+
+  .error-container{
+    color: $pl-fonts-red-alerts;
+    margin-top: 4px;
+    position: absolute;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .pre-field {
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: $pl-fonts-pink-medium;
+  }
+}

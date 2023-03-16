@@ -1,0 +1,40 @@
+.transactions-card-wrap {
+  padding-top: 8px;
+
+  .transactions-card-content {
+    padding-top: 20px;
+  }
+
+  .transactions-card-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+
+    &.bottom-line {
+      padding-bottom: 24px;
+    }
+
+    &.top-line {
+      padding-top: 15px;
+    }
+  }
+
+  .transactions-card-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+  }
+
+  .transactions-card-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22.5px;
+    padding: 10px 0;
+  }
+}

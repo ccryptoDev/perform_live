@@ -1,0 +1,20 @@
+{
+  "SOCIAL_LOGIN": "user/social",
+  "SOCIAL_LOGIN_TOKEN": "user/social/{type}/userInfo",
+  "TWITTER_REQUEST_TOKEN": "user/social/twitter/requestToken",
+  "CATEGORY_LIST": "performance/categories",
+  "GET_PERFORMER_PRODUCTS": "performer/product?gallery=true",
+  "GET_USER_INFO": "user/me",
+  "GET_OTHER_USER_INFO": "performer/public/{id}",
+  "GET_PERFORMER_INFO": "performer",
+  "UPDATE_PERFORMER": "performer",
+  "CREATE_PERFORMER": "performer",
+  "LIKE_DISLIKE": "performer/performance/id/{id}/like",
+  "FOLLOW_UNFOLLOW": "performer/id/{id}/follow",
+  "GET_SERVER_CURRENT_TIME": "performance/currentTime",
+
+  "GET_PERFORMER_FOLLOW_COUNT": "performer/public/{id}/follows/count",
+  "GET_PERFORMER_FOLLOWER_COUNT": "performer/public/{id}/followers/count",
+  "GET_PERFORMER_PERFORMANCE_COUNT": "performer/public/{id}/performances/count",
+  "POST_CONTACTUS": "email/contactUs"
+}

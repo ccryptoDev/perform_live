@@ -1,0 +1,15 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.slick-performance {
+ .slick-track {
+   display: flex;
+   padding-top: 36px;
+ }
+}
+
+.performance {
+  .cards {
+    margin-right: -17px;
+  }
+}

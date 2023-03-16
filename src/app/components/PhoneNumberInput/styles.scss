@@ -1,0 +1,59 @@
+@import '../../../../node_modules/react-phone-input-2/lib/style.css';
+
+.phone-number-input {
+  z-index: 10;
+}
+
+.phone-number-input.left {
+  margin-right: 16px;
+}
+
+.input-container{
+  .input__extraheight {
+    height: 40px;
+  }
+
+  .input-title{
+    padding-left: 16px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #c3a2c5;
+  }
+
+  .react-tel-input {
+    .form-control {
+      border: none;
+      width: 100%;
+      padding-left: 63px;
+      border-radius: 24px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+
+    .flag-dropdown {
+      background-color: #fff;
+      border: none;
+    }
+
+    .country-list {
+      width: 285px;
+      margin-left: -15px;
+      border-radius: 24px;
+    }
+  }
+
+  .react-tel-input:hover ~ .input__shadow,
+  .react-tel-input:focus ~ .input__shadow {
+    opacity: 1;
+  }
+
+  .button-dropdown {
+    z-index: 2;
+    margin-left: 15px;
+  }
+
+  .country-dropdown {
+    z-index: 10;
+  }
+}

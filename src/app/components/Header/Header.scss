@@ -1,0 +1,184 @@
+.header {
+   height: 55px;
+   display: flex;
+   position: fixed;
+   width: 100%;
+   z-index: 10;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 20px 0px 20px;
+   background: #FFFFFF;
+   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.05);
+   font-family: Poppins;
+
+   .menu {
+      display: flex;
+      align-items: center;
+      .icon {
+         padding: 10px;
+         background: url('~assets/svg/menu.svg') no-repeat center;
+         background-size: contain;
+         width: 21px;
+         height: 14px;
+         margin-right: 24px;
+         cursor: pointer;
+      }
+
+      .logo {
+         background: url('~assets/svg/logo.svg') no-repeat center;
+         background-size: contain;
+         width: 132px;
+         height: 25px;
+         cursor: pointer;
+      }
+   }
+
+   .search {
+      display: flex;
+      align-items: center;
+      margin-left: -150px;
+      .icon {
+         position: relative;
+         left: 25px;
+         background: url('~assets/svg/search.svg') no-repeat center;
+         background-size: contain;
+         width: 16px;
+         height: 16px;
+      }
+      .field {
+         background: #FFFFFF;
+         border: 1px solid #C3C9D2;
+         box-sizing: border-box;
+         height: 33px;
+         width: 300px;
+         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+         border-radius: 6px;
+         text-indent: 30px;
+      }
+   }
+
+   .cart {
+      display: flex;
+      position: relative;
+      .cart-btn {
+         background: linear-gradient(180deg, #B8284E 0%, #A5173D 100%);
+         border-radius: 29px;
+         padding: 6px 20px;
+         width: 110px;
+         height: 32px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-bottom: 0;
+         cursor: pointer;
+         .icon {
+            background: url('~assets/svg/cart.svg') no-repeat center;
+            background-size: contain;
+            margin-right: 4px;
+            width: 18px;
+            height: 18px;
+            margin-top: -2px;
+         }
+         span + span {
+            font-size: 10px;
+            line-height: 16px;
+         }
+      }
+      .myprofile-avatar__wrapper {
+        height: 32px;
+        padding: 0;
+        margin-left: 16px;
+        .myprofile-avatar {
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+       }
+       & > img {
+         margin-right: 0;
+       }
+       .arrow-up {
+         transform: rotate(180deg);
+       }
+      }
+
+      .user-info {
+        width: 256px;
+        height: 120px;
+        background: white;
+        position: absolute;
+        right: 0;
+        top: 130%;
+        border: 0.5px solid #DCDCDC;
+        box-sizing: border-box;
+        border-radius: 24px;
+        padding: 16px;
+
+        .user-info__detail {
+          display: flex;
+          border-bottom: 1px solid #97A2B0;
+          padding-bottom: 12px;
+          margin-bottom: 12px;
+
+          .myprofile-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 8px;
+          }
+
+          .detail__text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .detail__fullname {
+              font-weight: bold;
+              font-size: 15px;
+              line-height: 22px;
+              color: #10080F;
+            }
+
+            .profile-link {
+              font-weight: normal;
+              font-size: 12px;
+              line-height: 18px;
+              color: #97A2B0;
+            }
+          }
+        }
+
+        .logout__btn {
+          padding: 0;
+          margin: 0;
+          font-weight: normal;
+        }
+      }
+    }
+
+   .auth-button {
+      width: 109px;
+      height: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(180deg, #521D4D 0%, #33152F 100%);
+      border-radius: 50px;
+      color: white;
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 16px;
+
+      span {
+         cursor: pointer;
+         margin-right: 4px;
+         color: #FFFFFF;
+      }
+      .signup {
+         border-left: 1px solid white;
+         padding-left: 4px;
+         margin-right: 0px;
+         line-height: 11px;
+      }
+   }
+ }

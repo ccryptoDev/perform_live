@@ -1,0 +1,28 @@
+{
+  "GLOBAL_ERRORS": {
+    "TITLE": {
+      "DATA_ERROR": "Data Error",
+      "SERVER_ERROR": "Server Error",
+      "ERROR": "Error",
+      "FORM_VALIDATE_ERROR": "FORM Validation Error"
+    },
+    "MESSAGE": {
+      "DATA_ERROR": "Please contact administrator.",
+      "SERVER_ERROR": "Please contact administrator",
+      "ERROR": "Please contact administrator",
+      "ERROR_NOT_PERFORMER": "You need to be performer to create performance. Go to My Setting and update your profile."
+
+    },
+    "TIMEOUT": {
+      "ERROR_TIMEOUT_GLOBAL": 3000,
+      "ERROR_TIMEOUT_INSTRUCT": 5000
+    }
+  },
+  "PERFORMANCE_STATUS": {
+    "DRAFT":"draft",
+    "PUBLISHED":"published",
+    "LIVE":"live" ,
+    "PAST":"past"
+  },
+  "TOASTR_TIMEOUT_IN_SECS": 5
+}

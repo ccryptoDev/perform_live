@@ -1,0 +1,40 @@
+@import '~app/styles/_colors';
+
+.screen-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 38px 0;
+  margin-left: 242px;
+
+  .back-btn {
+    position: absolute;
+    top: 37px;
+    left: 7px;
+    width: auto;
+    border: none;
+    align-self: flex-start;
+    color: $pl-blue;
+    .back-btn-icon {
+      padding: 7px;
+    }
+  }
+
+  .content-wrap {
+    .order-details-header {
+      font-size: 32px;
+      font-weight: 700;
+      color: #fff;
+      padding-bottom: 40px;
+      margin: 0;
+    }
+    .digital-order-date{
+      padding-left: 25px;
+      font-size: 14px;
+      font-weight: 400;
+      color: $pl-fonts-pink-medium;
+    }
+  }
+}

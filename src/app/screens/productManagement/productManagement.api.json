@@ -1,0 +1,7 @@
+{
+ "GET_PERFORMANCE_PRODUCTS": "performance/id/{id}/product",
+ "GET_PERFORMANCE_PRODUCTS_PRIVATE": "performer/performance/id/{id}/product",
+ "GET_PRODUCT_EARN_PRICE": "payment/price/earn",
+ "GET_PRODUCT_PRICE_FROM_EARN": "payment/price/product",
+ "DELETE_PERFORMANCE_PRODUCTS": "performer/performance/id/{id}/product/{productId}"
+}

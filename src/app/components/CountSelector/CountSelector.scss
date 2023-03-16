@@ -1,0 +1,61 @@
+@import '~app/styles/_colors';
+
+.counter-selector-container {
+  width: 100%;
+
+  .minus {
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 5;
+    width: 32px;
+    padding: 8px;
+    background: $pl-fonts-blue;
+  }
+  .plus {
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 5;
+    width: 32px;
+    padding: 8px;
+    background: $pl-fonts-blue;
+  }
+
+  .count-selector__text {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: $pl-fonts-dark;
+
+    text-align: center;
+    border: none;
+  }
+
+  .count-selector__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background: $pl-white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+    padding: 4px;
+  }
+
+  margin-bottom: 25px;
+
+  .input-title {
+    padding-left: 16px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: $pl-fonts-pink-medium;
+  }
+
+  .error-container {
+    color: $pl-fonts-red-alerts;
+    margin-top: 4px;
+    position: absolute;
+  }
+}
+
+

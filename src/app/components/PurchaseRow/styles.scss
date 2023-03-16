@@ -1,0 +1,65 @@
+@import '~app/styles/_colors';
+
+.order-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+
+  .order-item-wrap {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+
+    &:hover {
+      td {
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(12px);
+        transition: .2s;
+      }
+    }
+  }
+
+  .order-item-wrap:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.03);
+  }
+
+  .order-item-wrap:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  td {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+
+    color: $pl-white;
+  }
+
+  .order-btn {
+    color: #1CE4F0;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 0;
+    border: none;
+  }
+
+  .id-data-container {
+    width: 30%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+  }
+
+  .order-date-container {
+    width: 20%;
+    padding-top: 11px;
+    padding-bottom: 36px;
+  }
+
+  .total-container {
+    width: 50%;
+    text-align: right;
+    padding-top: 11px;
+    padding-bottom: 36px;
+    padding-right: 40px;
+  }
+}

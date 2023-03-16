@@ -1,0 +1,109 @@
+
+.performer-product-list {
+  position: absolute;
+  bottom: 96px;
+  left: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  z-index: 3;
+
+
+
+  .product-item {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 120px;
+    padding: 10px;
+
+    .focus-button {
+      box-sizing: border-box;
+      height: 28px;
+      margin-bottom: 8px;
+      font-size: 10px;
+      font-weight: 500;
+      line-height: 16px;
+
+      &::before {
+        z-index: -1;
+      }
+    }
+    .product-thumbnail {
+      width: 100px;
+      height: 100px;
+      background-color: white !important;
+      border-radius: 8px 8px 0 0;
+
+      img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+      }
+    }
+    .product-title {
+      display: flex;
+      width: 100%;
+      background: radial-gradient(
+          132.46% 61.18% at 0% 100%,
+          rgba(32, 224, 236, 0.3) 6.38%,
+          rgba(56, 23, 53, 0) 100%
+        ),
+        radial-gradient(
+          150.77% 69.63% at 102.91% 0%,
+          rgba(249, 25, 86, 0.3) 19.56%,
+          rgba(60, 22, 56, 0) 96.66%
+        ),
+        linear-gradient(
+          167.96deg,
+          rgba(77, 25, 72, 0.4) 0%,
+          rgba(41, 19, 38, 0.4) 100%
+        );
+      backdrop-filter: blur(21px);
+      text-align: left;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 18px;
+      padding-left: 5px;
+      height: 50px;
+      color: white;
+      border-radius: 0 0 8px 8px;
+      margin-bottom: 4px;
+    }
+    .product-price {
+      background: rgba(243, 31, 89, 0.4);
+      border: 1px solid rgba(243, 31, 89, 0.6);
+      backdrop-filter: blur(16px);
+      box-sizing: border-box;
+      border-radius: 16px;
+      height: 24px;
+      width: 100%;
+      padding: 3px;
+
+      .currency-signal {
+        opacity: 0.6;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+      }
+      .price-value {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 3px;
+
+        small {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

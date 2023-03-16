@@ -1,0 +1,20 @@
+.product-item-preview {
+  position: relative;
+  margin-right: 15px;
+  &:last-child {
+    margin-right: 0;
+  }
+  .product {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .close {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    width: 24px;
+    height: 24px;
+  }
+}

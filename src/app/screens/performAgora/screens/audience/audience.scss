@@ -1,0 +1,41 @@
+@import '~app/styles/core';
+
+.audience-screen {
+  &__bottom-content {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__bottom-button {
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    padding: 0;
+    transition: filter 0.1s ease;
+
+    &:disabled,
+    &:hover,
+    &:focus {
+      filter: brightness(0.8);
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+    }
+
+    & > img {
+      pointer-events: none;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

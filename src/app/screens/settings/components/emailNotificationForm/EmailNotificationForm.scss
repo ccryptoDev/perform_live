@@ -1,0 +1,49 @@
+@import '~app/styles/core.scss';
+
+.email-notify-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 19px;
+}
+
+.input-name {
+  .name {
+    padding-left: 16px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: $pl-fonts-pink-medium;
+  }
+  .limit {
+    margin-top: 20px;
+  }
+}
+
+.toggle-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+}
+
+.toggle-group:last-child {
+  border:none;
+}
+
+.toggle-label {
+  font-size: 15px;
+  font-weight: 700;
+  color: $pl-white;
+}
+
+.toggle-description {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;  
+  color: #C3A2C5;
+}
+

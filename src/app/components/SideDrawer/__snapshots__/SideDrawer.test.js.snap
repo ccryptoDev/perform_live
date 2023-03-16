@@ -1,0 +1,603 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideDrawer Component renders correctly 1`] = `
+<HashRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <SideDrawer
+      menuItems={
+        Array [
+          Object {
+            "exact": true,
+            "name": "Login",
+            "path": "/",
+            "screen": Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            },
+            "sidebar": false,
+          },
+          Object {
+            "exact": true,
+            "icon": "IMAGE_MOCK",
+            "iconActive": "IMAGE_MOCK",
+            "isPrivate": true,
+            "name": "Filter",
+            "path": "/filterTrips",
+            "screen": Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            },
+            "sidebar": true,
+          },
+          Object {
+            "exact": true,
+            "icon": "IMAGE_MOCK",
+            "iconActive": "IMAGE_MOCK",
+            "isPrivate": true,
+            "name": "Plan",
+            "path": "/planTrips",
+            "screen": Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            },
+            "sidebar": true,
+          },
+          Object {
+            "exact": true,
+            "icon": "IMAGE_MOCK",
+            "isPrivate": true,
+            "name": "Create",
+            "path": "/createTrips",
+            "screen": Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            },
+            "sidebar": false,
+          },
+          Object {
+            "exact": true,
+            "icon": "IMAGE_MOCK",
+            "iconActive": "IMAGE_MOCK",
+            "isPrivate": true,
+            "name": "Open",
+            "path": "/openTrips",
+            "screen": Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            },
+            "sidebar": true,
+          },
+          Object {
+            "exact": true,
+            "icon": "IMAGE_MOCK",
+            "iconActive": "IMAGE_MOCK",
+            "isPrivate": true,
+            "name": " Past",
+            "path": "/pastTrips",
+            "screen": Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            },
+            "sidebar": true,
+          },
+        ]
+      }
+      toggleSideDrawer={[MockFunction]}
+    >
+      <nav
+        className="side-drawer"
+      >
+        <div
+          className="toggle-btn-container"
+        >
+          <button
+            className="toggle-btn"
+            onClick={[MockFunction]}
+            type="button"
+          >
+            <img
+              alt="hamburger-icon"
+              src="IMAGE_MOCK"
+            />
+          </button>
+        </div>
+        <ul>
+          <NavLink
+            activeClassName="active"
+            key="Filter"
+            to="/filterTrips"
+          >
+            <Link
+              aria-current={null}
+              to={
+                Object {
+                  "hash": "",
+                  "pathname": "/filterTrips",
+                  "search": "",
+                  "state": null,
+                }
+              }
+            >
+              <LinkAnchor
+                aria-current={null}
+                href="#/filterTrips"
+                navigate={[Function]}
+              >
+                <a
+                  aria-current={null}
+                  href="#/filterTrips"
+                  onClick={[Function]}
+                >
+                  <li>
+                    Filter
+                  </li>
+                  <span>
+                    <img
+                      alt="Filter"
+                      className="Filter"
+                      src="IMAGE_MOCK"
+                    />
+                  </span>
+                </a>
+              </LinkAnchor>
+            </Link>
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            key="Plan"
+            to="/planTrips"
+          >
+            <Link
+              aria-current={null}
+              to={
+                Object {
+                  "hash": "",
+                  "pathname": "/planTrips",
+                  "search": "",
+                  "state": null,
+                }
+              }
+            >
+              <LinkAnchor
+                aria-current={null}
+                href="#/planTrips"
+                navigate={[Function]}
+              >
+                <a
+                  aria-current={null}
+                  href="#/planTrips"
+                  onClick={[Function]}
+                >
+                  <li>
+                    Plan
+                  </li>
+                  <span>
+                    <img
+                      alt="Plan"
+                      className="Plan"
+                      src="IMAGE_MOCK"
+                    />
+                  </span>
+                </a>
+              </LinkAnchor>
+            </Link>
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            key="Open"
+            to="/openTrips"
+          >
+            <Link
+              aria-current={null}
+              to={
+                Object {
+                  "hash": "",
+                  "pathname": "/openTrips",
+                  "search": "",
+                  "state": null,
+                }
+              }
+            >
+              <LinkAnchor
+                aria-current={null}
+                href="#/openTrips"
+                navigate={[Function]}
+              >
+                <a
+                  aria-current={null}
+                  href="#/openTrips"
+                  onClick={[Function]}
+                >
+                  <li>
+                    Open
+                  </li>
+                  <span>
+                    <img
+                      alt="Open"
+                      className="Open"
+                      src="IMAGE_MOCK"
+                    />
+                  </span>
+                </a>
+              </LinkAnchor>
+            </Link>
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            key=" Past"
+            to="/pastTrips"
+          >
+            <Link
+              aria-current={null}
+              to={
+                Object {
+                  "hash": "",
+                  "pathname": "/pastTrips",
+                  "search": "",
+                  "state": null,
+                }
+              }
+            >
+              <LinkAnchor
+                aria-current={null}
+                href="#/pastTrips"
+                navigate={[Function]}
+              >
+                <a
+                  aria-current={null}
+                  href="#/pastTrips"
+                  onClick={[Function]}
+                >
+                  <li>
+                     Past
+                  </li>
+                  <span>
+                    <img
+                      alt=" Past"
+                      className=" Past"
+                      src="IMAGE_MOCK"
+                    />
+                  </span>
+                </a>
+              </LinkAnchor>
+            </Link>
+          </NavLink>
+        </ul>
+      </nav>
+    </SideDrawer>
+  </Router>
+</HashRouter>
+`;
+
+exports[`SideDrawer Component renders correctly if sidebar is open by default 1`] = `
+<HashRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <SideDrawer
+      isSideDrawerOpen={true}
+      menuItems={
+        Array [
+          Object {
+            "exact": true,
+            "name": "Login",
+            "path": "/",
+            "screen": Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            },
+            "sidebar": false,
+          },
+          Object {
+            "exact": true,
+            "icon": "IMAGE_MOCK",
+            "iconActive": "IMAGE_MOCK",
+            "isPrivate": true,
+            "name": "Filter",
+            "path": "/filterTrips",
+            "screen": Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            },
+            "sidebar": true,
+          },
+          Object {
+            "exact": true,
+            "icon": "IMAGE_MOCK",
+            "iconActive": "IMAGE_MOCK",
+            "isPrivate": true,
+            "name": "Plan",
+            "path": "/planTrips",
+            "screen": Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            },
+            "sidebar": true,
+          },
+          Object {
+            "exact": true,
+            "icon": "IMAGE_MOCK",
+            "isPrivate": true,
+            "name": "Create",
+            "path": "/createTrips",
+            "screen": Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            },
+            "sidebar": false,
+          },
+          Object {
+            "exact": true,
+            "icon": "IMAGE_MOCK",
+            "iconActive": "IMAGE_MOCK",
+            "isPrivate": true,
+            "name": "Open",
+            "path": "/openTrips",
+            "screen": Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            },
+            "sidebar": true,
+          },
+          Object {
+            "exact": true,
+            "icon": "IMAGE_MOCK",
+            "iconActive": "IMAGE_MOCK",
+            "isPrivate": true,
+            "name": " Past",
+            "path": "/pastTrips",
+            "screen": Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            },
+            "sidebar": true,
+          },
+        ]
+      }
+    >
+      <nav
+        className="side-drawer open"
+      >
+        <div
+          className="toggle-btn-container"
+        >
+          <button
+            className="toggle-btn"
+            type="button"
+          >
+            <span>
+              ×
+            </span>
+          </button>
+        </div>
+        <ul>
+          <NavLink
+            activeClassName="active"
+            key="Filter"
+            to="/filterTrips"
+          >
+            <Link
+              aria-current={null}
+              to={
+                Object {
+                  "hash": "",
+                  "pathname": "/filterTrips",
+                  "search": "",
+                  "state": null,
+                }
+              }
+            >
+              <LinkAnchor
+                aria-current={null}
+                href="#/filterTrips"
+                navigate={[Function]}
+              >
+                <a
+                  aria-current={null}
+                  href="#/filterTrips"
+                  onClick={[Function]}
+                >
+                  <li>
+                    Filter
+                  </li>
+                  <span>
+                    <img
+                      alt="Filter"
+                      className="Filter"
+                      src="IMAGE_MOCK"
+                    />
+                  </span>
+                </a>
+              </LinkAnchor>
+            </Link>
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            key="Plan"
+            to="/planTrips"
+          >
+            <Link
+              aria-current={null}
+              to={
+                Object {
+                  "hash": "",
+                  "pathname": "/planTrips",
+                  "search": "",
+                  "state": null,
+                }
+              }
+            >
+              <LinkAnchor
+                aria-current={null}
+                href="#/planTrips"
+                navigate={[Function]}
+              >
+                <a
+                  aria-current={null}
+                  href="#/planTrips"
+                  onClick={[Function]}
+                >
+                  <li>
+                    Plan
+                  </li>
+                  <span>
+                    <img
+                      alt="Plan"
+                      className="Plan"
+                      src="IMAGE_MOCK"
+                    />
+                  </span>
+                </a>
+              </LinkAnchor>
+            </Link>
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            key="Open"
+            to="/openTrips"
+          >
+            <Link
+              aria-current={null}
+              to={
+                Object {
+                  "hash": "",
+                  "pathname": "/openTrips",
+                  "search": "",
+                  "state": null,
+                }
+              }
+            >
+              <LinkAnchor
+                aria-current={null}
+                href="#/openTrips"
+                navigate={[Function]}
+              >
+                <a
+                  aria-current={null}
+                  href="#/openTrips"
+                  onClick={[Function]}
+                >
+                  <li>
+                    Open
+                  </li>
+                  <span>
+                    <img
+                      alt="Open"
+                      className="Open"
+                      src="IMAGE_MOCK"
+                    />
+                  </span>
+                </a>
+              </LinkAnchor>
+            </Link>
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            key=" Past"
+            to="/pastTrips"
+          >
+            <Link
+              aria-current={null}
+              to={
+                Object {
+                  "hash": "",
+                  "pathname": "/pastTrips",
+                  "search": "",
+                  "state": null,
+                }
+              }
+            >
+              <LinkAnchor
+                aria-current={null}
+                href="#/pastTrips"
+                navigate={[Function]}
+              >
+                <a
+                  aria-current={null}
+                  href="#/pastTrips"
+                  onClick={[Function]}
+                >
+                  <li>
+                     Past
+                  </li>
+                  <span>
+                    <img
+                      alt=" Past"
+                      className=" Past"
+                      src="IMAGE_MOCK"
+                    />
+                  </span>
+                </a>
+              </LinkAnchor>
+            </Link>
+          </NavLink>
+        </ul>
+      </nav>
+    </SideDrawer>
+  </Router>
+</HashRouter>
+`;

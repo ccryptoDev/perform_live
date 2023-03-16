@@ -1,0 +1,15 @@
+@import 'node_modules/media-blender/media';
+// @import '~antd/dist/antd.min.css';
+
+$media-breakpoints: (
+  mobile: 0 767,
+  tablet: 768 991,
+  desktop: 992 1279,
+  large: 1280 1439,
+  xlarge: 1440 1679,
+  xxlarge: 1680,
+);
+
+$max-width: auto;
+$header-height: 6.5rem;
+// $footer-height: 0px;

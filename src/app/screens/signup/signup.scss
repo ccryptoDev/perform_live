@@ -1,0 +1,13 @@
+@import '~app/styles/core';
+
+.signup-container {
+  width: 100%;
+
+  .form_container {
+    height: 100%;
+
+    .terms-and-privacy-policy-links {
+      margin-top: auto;
+    }
+  }
+}

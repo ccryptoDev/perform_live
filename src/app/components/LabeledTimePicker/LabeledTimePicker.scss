@@ -1,0 +1,63 @@
+@import '~app/styles/_colors';
+
+.time-picker-wrapper {
+  position: relative;
+
+  .input .input__input {
+    border: 1px solid #e0e4e8;
+    box-sizing: border-box;
+    background-color: $pl-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    width: 120px;
+    height: 40px;
+  }
+
+  .text {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: $pl-fonts-pink-medium;
+    z-index: 1;
+  }
+
+  .input-title {
+    padding-left: 16px;
+  }
+
+  .input-counter {
+    padding-right: 16px;
+  }
+
+  .error-container{
+    color: $pl-fonts-red-alerts;
+    margin-top: 4px;
+    position: absolute;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .pre-field {
+    display: flex;
+    justify-content: space-between;
+    height: 18px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: $pl-fonts-pink-medium;
+  }
+
+  .timepicker {
+    position: absolute;
+    right: 0px;
+    top: 63px;
+  }
+}

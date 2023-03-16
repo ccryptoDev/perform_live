@@ -1,0 +1,11 @@
+@import '~app/styles/core';
+
+.inner-card-container {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 24px 25px;
+  width: 680px;
+  color: #fff;
+}

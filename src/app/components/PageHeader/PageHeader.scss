@@ -1,0 +1,48 @@
+// @import '~app/styles/core';
+
+// .header {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   height: $header-height;
+//   padding: 1.5rem 2rem;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   background-color: $app-bg-header;
+//   box-shadow: $app-shadow-container;
+//   z-index: 99; // should ideally be below backdrop if visible
+
+//   .logo-container {
+//     width: 20rem;
+//     display: flex;
+//     flex-shrink: 0;
+//     margin-right: 3rem;
+//     margin-left: 4rem;
+//     transition: margin-left 0.3s ease-out;
+
+//     &.slide {
+//       margin-left: 21rem;
+//     }
+
+//     .logo {
+//       width: 100%;
+//     }
+
+//     @include media(mobile down) {
+//       margin-left: -1rem;
+//     }
+//   }
+
+//   .right-container {
+//     display: flex;
+//     flex: 1;
+//     justify-content: flex-end;
+//     align-items: center;
+
+//     .user-profile {
+//       margin-left: 2.5rem;
+//     }
+//   }
+// }

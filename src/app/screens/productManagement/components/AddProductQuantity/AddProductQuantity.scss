@@ -1,0 +1,57 @@
+@import '~app/styles/core.scss';
+
+
+.dropdown-container {
+  width: 100%;
+}
+
+.quantity-details {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  .input-name {
+    width: 100%;
+    .name {
+      padding-left: 16px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      color: $pl-fonts-pink-medium;
+    }
+    .limit {
+      margin-top: 20px;
+    }
+  }
+}
+
+.toggle-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.toggle-label {
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 16px;
+  color: $pl-white;
+}
+
+.toggle-description {
+  width: 100%;
+  color: $pl-white;
+  font-size: 15px;
+  padding: 16px 0;
+}
+
+.quantity-details__action-btns {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: column;
+
+  & > .btn {
+    z-index: inherit;
+  }
+}

@@ -1,0 +1,27 @@
+@import '~app/styles/core';
+
+.finish-performance {
+  width: 100%;
+  /* height: calc(100vh - 55px); */
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative;
+  flex: 1;
+  max-height: calc(100vh - 200px);
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .no-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    color: #fff;
+    font-size: 25px;
+  }
+}

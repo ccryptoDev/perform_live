@@ -1,0 +1,126 @@
+.create-performance {
+
+
+  .card {
+    cursor: auto;
+  }
+  .gift-price-active {
+    background-color: #fff;
+    color: #000 !important;
+  }
+  .time-format {
+    border: none;
+    background: transparent;
+    color: #000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  .date-group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .time-picker-group {
+    display: flex;
+    align-items: center;
+
+    .border-line {
+      width: 16px;
+      display: flex;
+      margin-left: 12px;
+      margin-right: 12px;
+      border: 1px solid #e7d1e8;
+      margin-bottom: 8px;
+    }
+  }
+
+  .audience {
+    .input-container {
+      display: inline-block;
+    }
+
+    .dropdown-container {
+      display: inline-block;
+      width: 120px;
+    }
+
+
+    .attend-text {
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      color: #ffffff;
+      padding-left: 9px;
+      padding-right: 9px;
+    }
+  }
+
+  .settings {
+    .input__input {
+      width: 90px;
+    }
+  }
+
+  .person-group {
+    display: flex;
+    align-items: center;
+
+    .input-container {
+      margin-bottom: 0;
+    }
+
+    .dropdown-container {
+      display: inline-block;
+      width: 120px;
+      margin-bottom: 0;
+    }
+
+    .person-text {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 15px;
+      line-height: 22px;
+      color: #ffffff;
+    }
+  }
+
+  .coming-soon {
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #1ce4f0;
+    margin-left: 10px;
+  }
+
+  .stage-text {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #e7d1e8;
+  }
+
+  .create-performance__tabs {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .tab-list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 16px;
+      width: 80px;
+      height: 40px;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      color: #ffffff;
+      border-radius: 24px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+  }
+}

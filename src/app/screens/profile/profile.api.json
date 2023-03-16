@@ -1,0 +1,19 @@
+{
+  "GET_PERFORMANCE": "performer/performance/{state}",
+  "GET_FOLLOWERS": "performer/followers",
+  "GET_FOLLOWINGS": "performer/followedByMe",
+  "GET_MY_PERFORMANCE_COUNT": "performer/performance/count",
+  "GET_FOLLOWER_COUNT": "performer/followers/count",
+  "GET_FOLLOWING_COUNT": "performer/followedByMe/count",
+  "POST_FILE_UPLOAD": "file/upload",
+  "POST_PERFORMER_PHONE": "performer/phone",
+  "POST_PERFORMER_EMAIL": "performer/email",
+  "POST_EMAIL_VERIFY": "email/verify",
+  "POST_PHONE_VERIFY": "phone/verify",
+  "GET_PERFORMANCE_USER": "performer/public/{id}/performances/{state}",
+  "GET_FOLLOWERS_USER": "performer/public/{id}/followers",
+  "GET_FOLLOWINGS_USER": "performer/public/{id}/follows",
+  "GET_USER_PERFORMANCE_COUNT_USER": "performer/public/{id}/performances/count",
+  "GET_FOLLOWER_COUNT_USER": "performer/public/{id}/followers/count",
+  "GET_FOLLOWING_COUNT_USER": "performer/public/{id}/follows/count"
+}

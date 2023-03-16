@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserProfile /> renders correctly 1`] = `
+<div
+  className="profile-container"
+>
+  <div
+    className="profile-btn-container  undefined"
+    onClick={[Function]}
+    role="presentation"
+  >
+    <span
+      className="profile-name"
+    />
+    <Button
+      buttonType="transparent"
+      customClass="profile-button"
+    />
+  </div>
+</div>
+`;

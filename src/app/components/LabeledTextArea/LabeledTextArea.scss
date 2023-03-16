@@ -1,0 +1,33 @@
+@import '~app/styles/_colors';
+
+.textarea-container {
+  margin-bottom: 25px;
+
+  .textarea-title {
+    padding-left: 16px;
+  }
+
+  .textarea-counter {
+    padding-right: 16px;
+  }
+
+  .error-container {
+    color: $pl-fonts-red-alerts;
+    margin-top: 4px;
+    position: absolute;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .pre-field {
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: $pl-fonts-pink-medium;
+  }
+}

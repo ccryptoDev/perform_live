@@ -1,0 +1,47 @@
+@import '~app/styles/core';
+@import '~app/styles/_colors';
+
+.favorites-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 37px 17px 64px 17px;
+  max-width: calc(100% - 242px);
+  width: 100%;
+  flex: 1;
+  margin-left: 242px;
+
+  .title {
+    align-self: flex-start;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 24px;
+    margin: 0;
+    color: #fff;
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 53px;
+  }
+
+  .isEmpty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    .empty-state{
+      padding-top: 0;
+    }
+  }
+}

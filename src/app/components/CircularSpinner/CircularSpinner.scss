@@ -1,0 +1,127 @@
+
+.pl-circular-spinner {
+  width: 200px;
+  height: 200px;
+  position: relative;
+
+  .pl-circular-spinner__circle {
+    border: 1px dashed #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .pl-circular-spinner__circle1 {
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.15;
+  }
+
+  .pl-circular-spinner__circle2 {
+    width: 78%;
+    height: 78%;
+    margin: calc(22% / 2);
+    margin-left: calc((22% / 2) - 22% / 3);
+    opacity: 0.3;
+  }
+
+  .pl-circular-spinner__circle3 {
+    width: 55%;
+    height: 55%;
+    margin: calc(45% / 2);
+    margin-left: calc((45% / 2) - 45% / 3);
+    opacity: 0.5;
+  }
+
+  .pl-circular-spinner__circle4 {
+    width: 35%;
+    height: 35%;
+    margin: calc(65% / 2);
+    margin-left: calc((65% / 2) - 65% / 3);
+    opacity: 0.7;
+  }
+
+  .pl-circular-spinner__center {
+    width: 13%;
+    height: 13%;
+    margin: calc(87% / 2);
+    margin-left: calc((87% / 2) - 87% / 3);
+
+    border-radius: 50%;
+    background: linear-gradient(131.41deg, #f91956 12.78%, #20e0ec 85.73%);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  animation-name: spin;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.pl-circular-spinner--error {
+  width: 200px;
+  height: 200px;
+  position: relative;
+
+  .pl-circular-spinner__circle--error {
+    border: 1px dashed #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .pl-circular-spinner__circle1--error {
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.15;
+  }
+
+  .pl-circular-spinner__circle2--error {
+    width: 78%;
+    height: 78%;
+    margin: calc(22% / 2);
+    opacity: 0.3;
+  }
+
+  .pl-circular-spinner__circle3--error {
+    width: 55%;
+    height: 55%;
+    margin: calc(45% / 2);
+    opacity: 0.5;
+  }
+
+  .pl-circular-spinner__circle4--error {
+    width: 35%;
+    height: 35%;
+    margin: calc(65% / 2);
+    opacity: 0.7;
+  }
+
+  .pl-circular-spinner__center--error {
+    width: 17%;
+    height: 17%;
+    margin: calc(83% / 2);
+    background-color: #F91956;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+  }
+}

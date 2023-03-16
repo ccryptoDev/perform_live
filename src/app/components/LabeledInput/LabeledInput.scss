@@ -1,0 +1,88 @@
+@import '~app/styles/_colors';
+
+.input-container {
+  margin-bottom: 25px;
+
+  .text {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: $pl-fonts-pink-medium;
+    z-index: 1;
+  }
+  .input-title-point {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    .input-title {
+      padding-left: 16px;
+    }
+    .require-point {
+      width: 15px;
+      height: 15px;
+      margin-left: 10px;
+    }
+  }
+
+
+  .input-counter {
+    padding-right: 16px;
+  }
+
+  .error-container{
+    color: $pl-fonts-red-alerts;
+    margin-top: 4px;
+    padding-left: 16px;
+    position: absolute;
+
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 12px;
+    &.warning {
+      color: white;
+      opacity: 0.6;
+      font-weight: 300;
+    }
+  }
+
+  .pre-field {
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: $pl-fonts-pink-medium;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // padding-right: 10px;
+
+    .input__border {
+      &.error {
+        border: 2px solid $pl-pink;
+      }
+    }
+  }
+
+  .icon {
+      position: relative;
+      z-index: 2;
+      padding: 7px 0 7px 11px;
+      margin-right: -8px;
+  }
+  .prefix {
+    color: black;
+    font-size: 16px;
+    z-index: 1;
+    margin-left: 15px;
+    margin-right: -10px;
+  }
+}

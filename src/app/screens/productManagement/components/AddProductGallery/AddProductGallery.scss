@@ -1,0 +1,24 @@
+.gallery-modal {
+  .btn {
+    width: 100%;
+    z-index: 2;
+  }
+
+  .circle-btn {
+    width: 40px;
+    height: 40px;
+
+    & > img {
+      margin: 0;
+    }
+  }
+}
+
+.gallery-lists {
+  margin-top: 35px;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  position: relative;
+}

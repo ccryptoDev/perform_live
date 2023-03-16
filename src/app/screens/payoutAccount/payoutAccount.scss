@@ -1,0 +1,105 @@
+@import '~app/styles/core';
+
+.payoutaccount-container {
+  display: flex;
+  padding-top: 32px;
+  justify-content: center;
+  width: 100%;
+  align-items: flex-start;
+  margin-left: 242px;
+}
+
+.payoutaccount-content {
+  background: linear-gradient(
+    100.45deg,
+    rgba(255, 255, 255, 0.15) 3.19%,
+    rgba(255, 255, 255, 0.03) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
+  backdrop-filter: blur(32px);
+  border-radius: 18px;
+  width: 680px;
+
+  padding: 32px 24px;
+
+  .input-row {
+    display: flex;
+
+    .input-container,
+    .dropdown-container {
+      width: 100%;
+    }
+    .left-input {
+      margin-right: 10px;
+    }
+  }
+}
+
+.create-payout-acc-flow__action-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+
+  .btn {
+    width: 100%;
+  }
+  :first-child {
+    margin-right: 10px;
+  }
+}
+
+.create-payout-acc-flow {
+  position: relative;
+  padding: 27px 24px;
+
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .create-payout-acc-flow__spinner-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(17, 4, 16, 0.7);
+    backdrop-filter: blur(12px);
+  }
+}
+
+.payout-account-info {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.row-data {
+  padding-left: 8px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.row {
+  display: flex;
+  padding-bottom: 8px;
+}
+
+.edit-button {
+  padding-top: 16px;
+  padding-right: 24px;
+}

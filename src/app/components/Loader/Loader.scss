@@ -1,0 +1,29 @@
+@import '~app/styles/core.scss';
+
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255,255,255,0.4);
+  z-index: 9000; // Should always be top-most element
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 8rem;
+    height: 8rem;
+    animation: infinite-spinning 2s linear infinite;
+  }
+
+  @keyframes infinite-spinning {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

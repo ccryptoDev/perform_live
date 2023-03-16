@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CookiesConsentMessage Component renders correctly 1`] = `
+<div
+  className="cookie-policy-message"
+  role="presentation"
+>
+  <p>
+    Our website uses cookies and other similar technologies to improve our site and your online experience. By continuing to use our website you consent to cookies being used.
+  </p>
+  <span>
+    <Button
+      buttonType="secondary"
+      customClass="confirm-btn"
+      label="OK"
+      onClick={[MockFunction]}
+    />
+  </span>
+</div>
+`;

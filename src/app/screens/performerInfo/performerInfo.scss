@@ -1,0 +1,59 @@
+@import '~app/styles/core';
+@import '~app/styles/_colors';
+
+.performer-info {
+  margin: 48px auto;
+  width: 700px;
+  height: fit-content;
+  background: linear-gradient(100.45deg, rgba(255, 255, 255, 0.15) 3.19%, rgba(255, 255, 255, 0.03) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 18px;
+  padding: 32px 24px 48px 24px;
+
+  h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+  }
+
+  .personal-info {
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding: 14px 24px 14px 16px;
+    position: relative;
+
+    & > a {
+      position: absolute;
+      right: 24px;
+      top: 14px;
+      cursor: pointer;
+    }
+    div {
+      display: flex;
+      align-items: center;
+
+      img {
+        margin-right: 6px;
+        width: 18px;
+        height: 20px;
+      }
+      p {
+        padding: 0;
+        font-size: 14px;
+        line-height: 18px;
+        color: white;
+      }
+      .active {
+        color: #1CE4F0;
+        cursor: pointer;
+      }
+    }
+    div + div {
+      margin-top: 8px;
+    }
+  }
+  
+}

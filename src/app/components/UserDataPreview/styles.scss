@@ -1,0 +1,42 @@
+.userdatapreview-container {
+  position: relative;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 16px 20px;
+  .edit-btnicon-container {
+    position: absolute;
+    top: 19px;
+    right: 27px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+  }
+  .input-group {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    &:last-child{
+      padding-bottom: 0;
+    }
+    .form-control {
+      cursor: text;
+      flex: 1;
+      font-size: 15px;
+      line-height: 22px;
+      border: none;
+      color: #FFF;
+      //&::placeholder {
+      //  color: #B7B5B7;
+      //}
+      &:disabled {
+        background: none;
+      }
+    }
+
+    .input-group-prepend {
+        margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,94 @@
+@import '~app/styles/core';
+
+.side-drawer {
+  height: 100%;
+  width: 70%;
+  max-width: 23rem;
+  background: $app-bg-side-drawer;
+  box-shadow: $app-shadow-container;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200; // should be above backdrop & header
+  transform: translateX(-17rem);
+  transition: transform 0.3s ease-out;
+
+  &.open {
+    transform: translateX(0);
+  }
+
+  .toggle-btn-container {
+    color: $app-text-white;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    height: 52px;
+
+    .toggle-btn {
+      background: transparent;
+      border: none;
+      color: $app-text-white;
+      font-size: 3rem;
+      width: 6rem;
+
+      img {
+        width: 2rem;
+      }
+
+      >span {
+        font-size: 3rem;
+        display: block;
+      }
+    }
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+
+    a {
+      text-decoration: none;
+      color: $app-text-white;
+      padding: 1.5rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-weight: 600;
+      height: 5.5rem;
+
+      &:hover, &.active {
+        background: $brand-color-secondary;
+      }
+
+      img {
+        padding: 0 1rem;
+        width: 4.4rem;
+
+        &.Trips {
+          width: 3.6rem;
+        }
+
+        &.Vehicles {
+          width: 4.1rem;
+        }
+
+        &.Vendors {
+          width: 5.5rem;
+          margin-left: -0.5rem;
+        }
+      }
+
+      span {
+        width: 4.3rem;
+        text-align: center;
+      }
+    }
+  }
+
+  @include media(mobile down) {
+    display: none;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "GET_PERFORMANCE": "performer/performance/{state}",
+  "GET_FOLLOWERS": "performer/followers",
+  "GET_FOLLOWINGS": "performer/followedByMe",
+  "GET_MY_PERFORMANCE_COUNT": "performer/performance/count",
+  "GET_FOLLOWER_COUNT": "performer/followers/count",
+  "GET_FOLLOWING_COUNT": "performer/followedByMe/count"
+}

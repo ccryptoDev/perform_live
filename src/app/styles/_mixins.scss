@@ -1,0 +1,17 @@
+@mixin text-regular($fontSize, $fontColor) {
+  font-family: $app-font-regular;
+  font-size: $fontSize;
+  color: $fontColor;
+}
+
+@mixin text-medium($fontSize, $fontColor) {
+  font-family: $app-font-medium;
+  font-size: $fontSize;
+  color: $fontColor;
+}
+
+@mixin text-bold($fontSize, $fontColor) {
+  font-family: $app-font-bold;
+  font-size: $fontSize;
+  color: $fontColor;
+}

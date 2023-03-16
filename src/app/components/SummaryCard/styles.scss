@@ -1,0 +1,37 @@
+@import '~app/styles/_colors';
+
+.order-summary {
+  color: $pl-white;
+
+  .order-summary__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .status-state {
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+
+      .steps__btn {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-decoration: underline;
+        padding: 0;
+
+        span {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

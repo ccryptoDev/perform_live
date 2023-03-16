@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrowserCheck Component renders correctly 1`] = `
+<Modal
+  closeModal={[Function]}
+  isModalOpen={true}
+>
+  <h2>
+    Browser unsupported
+  </h2>
+</Modal>
+`;

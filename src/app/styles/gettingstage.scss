@@ -1,0 +1,166 @@
+.getting-stage {
+  position: absolute;
+  width: 100%;
+  font-family: Graphik;
+  font-style: normal;
+  color: #2C2F34;
+  z-index: 10;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: top 0.6s;
+  top: -500px;
+  &.active {
+    top: calc(50% - 200px);
+  }
+  .check-layout {
+    background: linear-gradient(167.96deg, #4D1948 0%, #291326 100%), linear-gradient(176.26deg, #4D1948 0%, #291326 48.11%);
+    border-radius: 18px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.07);
+    width: 560px;
+    top: 162px;
+    margin: 107px auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #ffffff;
+    .card {
+      position: relative;
+      padding-right: 0;
+      cursor: auto;
+      .close {
+        display: flex;
+        justify-content: space-between;
+        padding: 19px 19px 1px 19px;
+        .back {
+          cursor: pointer;
+        }
+        .close-btn {
+          cursor: pointer;
+        }
+      }
+      .card-header {
+        margin-top: -15px;
+        .title {
+          font-weight: 600;
+          font-size: 25px;
+          line-height: 28px;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+      .check-body {
+        padding: 0px 36px 0px 36px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .check-icon {
+          margin-top: 24px;
+          text-align: center;
+          width: 24px;
+          height: 24px;
+        }
+        .test-text {
+          font-weight: bold;
+          font-size: 15px;
+          line-height: 22px;
+          color: #C3A2C5;
+          margin-top: 12px;
+          display: flex;
+          justify-content: center;
+          .face-time {
+            margin-left: 8px;
+          }
+        }
+        .border-line {
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          width: 100%;
+          margin-top: 24px;
+        }
+      }
+      .bottom {
+        padding: 32px 36px 40px 36px;
+        .allow {
+          display: flex;
+          align-items: center;
+          .react-toggle--checked .react-toggle-track {
+            background: #00A8B2;
+          }
+          .react-toggle--checked .react-toggle-thumb {
+            border-color: #00A8B2;
+            width: 13px;
+            height: 13px;
+            top: 1.5px;
+          }
+          .allow-text {
+            margin-left: 16px;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 22px;
+            color: #E7D1E8;
+          }
+        }
+        .setting {
+          margin-top: 23px;
+          position: relative;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          height: 40px;
+          .minus {
+            position: absolute;
+            left: 14px;
+            top: 46%;
+            cursor: pointer;
+            z-index: 5;
+            padding: 10px;
+            padding-top: 0;
+            padding-left: 0;
+          }
+          .plus {
+            position: absolute;
+            right: 14px;
+            top: 32%;
+            width: 12px;
+            cursor: pointer;
+            z-index: 5;
+          }
+          .input-text {
+            width: 15%;
+            position: relative;
+            border: 1.5px solid rgba(255, 255, 255, 0.15);
+            border-radius: 24px;
+            height: 38px;
+            width: 80px;
+            &:hover {
+              border: 1.5px solid #B8284E;
+            }
+            &:focus {
+              border: 1.5px solid #B8284E;
+            }
+            .text {
+              position: absolute;
+              left: 45%;
+              top: 16%;
+              font-size: 15px;
+            }
+          }
+          .setting-text {
+            width: auto;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 22px;
+            color: #FFFFFF;
+          }
+          .setting-input {
+            width: 70px;
+            height: 40px;
+            border-radius: 24px;
+            padding: 11px;
+            padding-top: 9px;
+          }
+        }
+      }
+    }
+  }
+}

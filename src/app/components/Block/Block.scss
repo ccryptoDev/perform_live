@@ -1,0 +1,48 @@
+.card__block {
+   position: relative;
+   display: inline-block;
+   .dropBtn {
+      all: unset;
+      border: none;
+      cursor: pointer;
+      img {
+         width: 32px;
+         height: 32px;
+      }
+   }
+   .dropContent {
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 220px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      border-radius: 25px;
+      margin-top: 5px;
+      padding: 0 20px;
+      z-index: 1;
+      text-align: center;
+      &.right {
+         right: 0;
+      }
+      &.left {
+         left: 0;
+      }
+      & div:last-child {
+         border-bottom: 0px;
+      }
+      .dropItem {
+         width: 100%;
+         color: black;
+         padding: 8px 20px;
+         text-decoration: none;
+         display: block;
+         cursor: pointer;
+         text-align: center;
+         line-height: 20px;
+         border-bottom: 1px dotted darkgrey;
+         font-size: 14px;
+         &:hover {
+            font-weight: bold;
+         }
+      }
+   }
+}

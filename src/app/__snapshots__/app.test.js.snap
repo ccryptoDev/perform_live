@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders correctly 1`] = `
+Array [
+  <div
+    className="error-page"
+  >
+    <section
+      id="not-found"
+    >
+      <div
+        id="title"
+      >
+        <button
+          className="btn btn-secondary goback-btn  undefined "
+          onClick={[Function]}
+          type="button"
+        >
+          <div
+            className=" btn-content-container "
+          >
+            <span
+              className="label"
+            >
+              Go to previous page.
+            </span>
+          </div>
+        </button>
+      </div>
+      <div
+        className="circles"
+      >
+        <p>
+          <img
+            alt="error-icon"
+            src="IMAGE_MOCK"
+          />
+          <small>
+            Oops! - Something went wrong.
+          </small>
+           
+          <br />
+          Please try again, or contact the support team for assistance if required.
+        </p>
+        <span
+          className="circle big"
+        />
+        <span
+          className="circle med"
+        />
+        <span
+          className="circle small"
+        />
+      </div>
+    </section>
+  </div>,
+  <div
+    className="modal"
+    onClick={[Function]}
+    role="presentation"
+  >
+    <div
+      className="modal-content app-container undefined"
+    >
+      <h2>
+        Browser unsupported
+      </h2>
+      <button
+        className="close"
+        onClick={[Function]}
+        onKeyUp={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        ×
+      </button>
+    </div>
+  </div>,
+  <div
+    aria-live="assertive"
+    className="redux-toastr"
+  >
+    <div>
+      <div
+        className="top-left"
+        style={Object {}}
+      />
+      <div
+        className="top-right"
+        style={Object {}}
+      />
+      <div
+        className="top-center"
+        style={Object {}}
+      />
+      <div
+        className="bottom-left"
+        style={Object {}}
+      />
+      <div
+        className="bottom-right"
+        style={Object {}}
+      />
+      <div
+        className="bottom-center"
+        style={Object {}}
+      />
+    </div>
+  </div>,
+]
+`;

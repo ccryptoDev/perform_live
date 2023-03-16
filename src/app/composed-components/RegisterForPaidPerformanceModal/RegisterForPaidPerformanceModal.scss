@@ -1,0 +1,45 @@
+@import '~app/styles/_colors';
+
+.register-for-paid-performance {
+  .no-border {
+    border: none;
+  }
+
+  .spinner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.register-for-paid-performance__row {
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+  padding: 16px 0;
+  display: flex;
+
+  .h4 {
+    margin-bottom: 16px;
+  }
+}
+
+.register-for-paid-performance__total-row {
+  justify-content: space-between;
+
+  .total-row__title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+  }
+}
+
+.register-for-paid-performance__btn-row {
+  display: flex;
+  margin-top: 35px;
+
+  :first-child {
+    margin-right: 16px;
+  }
+}

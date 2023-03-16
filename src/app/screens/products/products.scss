@@ -1,0 +1,48 @@
+@import '~app/styles/core';
+@import '~app/styles/_colors';
+
+.products-container {
+  width: 100%;
+  padding: 20px;
+  margin-left: 242px;
+
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: $pl-white;
+  }
+}
+
+.products__topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.products-draft {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 24px 0;
+
+  .product-small-card {
+    padding-right: 16px;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+}
+
+.products-products {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 24px 0;
+
+  .product-small-card {
+    padding-right: 16px;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+}

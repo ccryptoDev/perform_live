@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Routes /> Routes component renders correctly 1`] = `
+<div
+  className="error-page"
+>
+  <section
+    id="not-found"
+  >
+    <div
+      id="title"
+    >
+      <button
+        className="btn btn-secondary goback-btn  undefined "
+        onClick={[Function]}
+        type="button"
+      >
+        <div
+          className=" btn-content-container "
+        >
+          <span
+            className="label"
+          >
+            Go to previous page.
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      className="circles"
+    >
+      <p>
+        <img
+          alt="error-icon"
+          src="IMAGE_MOCK"
+        />
+        <small>
+          Oops! - Something went wrong.
+        </small>
+         
+        <br />
+        Please try again, or contact the support team for assistance if required.
+      </p>
+      <span
+        className="circle big"
+      />
+      <span
+        className="circle med"
+      />
+      <span
+        className="circle small"
+      />
+    </div>
+  </section>
+</div>
+`;
